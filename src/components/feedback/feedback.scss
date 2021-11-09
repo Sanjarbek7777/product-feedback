@@ -1,0 +1,19 @@
+.feedback-btn {
+  width: 158px;
+  background-color: #AD1FEA;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #F2F4FE;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  margin-left: auto;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}

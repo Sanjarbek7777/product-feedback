@@ -1,0 +1,18 @@
+.hero {
+  width: 825px;
+  background-color: #373F68;
+  border-radius: 10px;
+  padding: 14px 16px 14px 24px;
+  display: flex;
+  align-items: center;
+}
+
+.hero__heading {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  margin-left: 16px;
+}

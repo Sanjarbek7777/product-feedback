@@ -5,3 +5,5 @@ function Input() {
     <input className="input" type="text" name="text" placeholder="Text input" />
   );
 }
+
+export default Input;
