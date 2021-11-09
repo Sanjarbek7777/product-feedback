@@ -1,0 +1,145 @@
+.btn {
+  width: 145px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #F2F4FE;
+  padding: 13px;
+  transition: opacity 0.3s ease;
+
+  &:hover{
+    opacity: 0.7;
+  }
+}
+
+.btn__one {
+  background-color: #AD1FEA;
+}
+
+.btn__two {
+  background-color: #4661E6;
+}
+
+.btn__three {
+  background-color: #3A4374;
+}
+
+.btn__four {
+  background-color: #D73737;
+}
+
+.btn__back {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #647196;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-image: url("../../assets/img/icon-back-blue.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 16px;
+  }
+
+  &:hover {
+    text-decoration-line: underline;
+  }
+}
+
+.btn__dark {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #373F68;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-image: url("../../assets/img/icon-back-dark.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 16px;
+  }
+
+  &:hover {
+    text-decoration-line: underline;
+  }
+}
+
+.btn__hashtag {
+  width: 48px;
+  background-color: #F2F4FF;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  color: #4661E6;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #CFD7FF;
+    opacity: 10;
+  }
+
+  &:active {
+    background-color: #4661E6;
+    color: #FFFFFF;
+  }
+}
+
+.btn__number {
+  width: 40px;
+  background-color: #F2F4FE;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  color: #3A4374;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 11px 8px 11px;
+
+  &::before {
+    content: "";
+    width: 10px;
+    height: 8px;
+    display: block;
+    background-image: url("../../assets/img/vector-up.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 8px;
+    transition: background-color 0.3s ease;
+  }
+
+  &:hover {
+    background-color: #CFD7FF;
+    opacity: 10;
+  }
+
+  &:active {
+    background-color: #4661E6;
+    color: #FFFFFF;
+  }
+}
