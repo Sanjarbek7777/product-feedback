@@ -4,6 +4,7 @@ import Mentor from "./components/mentor/mentor";
 import Hashtags from "./components/hashtag/hashtag";
 import Roadmap from "./components/roadmap/roadmap";
 import Hero from "./components/hero/hero";
+import Card from "./components/card/card";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
           </div>
           <div className="right-content">
             <Hero />
+
+            <Card />
           </div>
         </div>
       </div>

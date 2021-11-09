@@ -1,0 +1,18 @@
+.card-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 24px;
+}
+
+.card-list__item {
+  max-width: 825px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 28px 32px;
+  display: flex;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
