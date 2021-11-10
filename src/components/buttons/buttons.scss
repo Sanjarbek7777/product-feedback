@@ -1,5 +1,4 @@
 .btn {
-  width: 145px;
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -9,7 +8,7 @@
   line-height: 20px;
   text-align: center;
   color: #F2F4FE;
-  padding: 13px;
+  // padding: 13px;
   transition: opacity 0.3s ease;
 
   &:hover{
@@ -87,8 +86,6 @@
 }
 
 .btn__hashtag {
-  width: 100%;
-  height: 30px;
   background-color: #F2F4FF;
   border-radius: 10px;
   font-weight: 600;
@@ -97,8 +94,7 @@
   color: #4661E6;
   transition: background-color 0.3s ease;
   padding: 0;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 5px 16px 6px 16px;
 
   &:hover {
     background-color: #CFD7FF;
@@ -112,7 +108,7 @@
 }
 
 .btn__number {
-  width: 40px;
+  min-width: 40px;
   background-color: #F2F4FE;
   font-weight: bold;
   font-size: 13px;
@@ -122,7 +118,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 14px 11px 8px 11px;
+  padding: 14px 9px 8px 9px;
 
   &::before {
     content: "";

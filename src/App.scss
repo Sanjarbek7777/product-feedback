@@ -5,3 +5,31 @@
 .left-content {
   margin-right: 30px;
 }
+
+.right-content {
+  width: 825px;
+}
+
+@media only screen and (max-width: 850px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-content {
+    width: 100%;
+  }
+
+  .left-content {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 556px) {
+  .left-content {
+    margin-bottom: 0;
+  }
+}

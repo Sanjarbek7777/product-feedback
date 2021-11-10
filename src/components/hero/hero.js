@@ -7,7 +7,7 @@ function Hero() {
   return(
     <>
       <div className="hero">
-        <img src={IMG} alt="site logo" width="24" height="24" />
+        <img className="hero__img" src={IMG} alt="site logo" width="24" height="24" />
         <h3 className="hero__heading">6 Suggestions</h3>
         <Select />
         <Feedback />

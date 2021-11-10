@@ -1,0 +1,39 @@
+.card-add {
+  height: 600px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  margin-top: 24px;
+  padding-top: 301px;
+  background-image: url("../../assets/img/people-image.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 0px) 107px;
+  background-size: 129px 136px;
+}
+
+.card-add__wrapper {
+  max-width: 430px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card-add__heading {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: -0.333333px;
+  color: #3A4374;
+  margin: 0;
+}
+
+.card-add__text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #647196;
+  margin: 0;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}

@@ -5,6 +5,7 @@ import Hashtags from "./components/hashtag/hashtag";
 import Roadmap from "./components/roadmap/roadmap";
 import Hero from "./components/hero/hero";
 import Card from "./components/card/card";
+import Add from "./components/add-feddback/add-feedback";
 
 function App() {
   return (
@@ -21,7 +22,9 @@ function App() {
           <div className="right-content">
             <Hero />
 
-            <Card />
+            <Add />
+
+            {/* <Card /> */}
           </div>
         </div>
       </div>

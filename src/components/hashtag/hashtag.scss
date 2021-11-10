@@ -12,9 +12,28 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  margin-top: -10px;
+  margin-bottom: -10px;
 }
 
-.hashtags__item:not(:last-child) {
-  margin-bottom: 14px;
-  margin-right: 10px;
+.hashtags__item {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 850px) {
+  .hashtags {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 223px;
+    padding: 24px 18px 36px 24px;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 556px) {
+  .hashtags {
+    display: none;
+  }
 }
