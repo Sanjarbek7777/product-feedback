@@ -1,13 +1,9 @@
 .card-add {
-  height: 600px;
   background-color: #FFFFFF;
   border-radius: 10px;
   margin-top: 24px;
-  padding-top: 301px;
-  background-image: url("../../assets/img/people-image.svg");
-  background-repeat: no-repeat;
-  background-position: calc(50% + 0px) 107px;
-  background-size: 129px 136px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .card-add__wrapper {
@@ -26,6 +22,7 @@
   letter-spacing: -0.333333px;
   color: #3A4374;
   margin: 0;
+  margin-top: 53px;
 }
 
 .card-add__text {

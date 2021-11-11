@@ -15,7 +15,7 @@ function Card() {
           <span className="card-list__number">2</span>
         </li>
 
-        <li className="card-list__item">
+        {/* <li className="card-list__item">
           <Button className="btn__number" type="button">99</Button>
           <div className="card-list__wrapper">
             <h3 className="card-list__theme">Add a dark theme option</h3>
@@ -63,7 +63,7 @@ function Card() {
           <Button className="card-list__btn btn__hashtag" type="button">Bug</Button>
           </div>
           <span className="card-list__number">0</span>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

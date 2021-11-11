@@ -10,6 +10,18 @@
   width: 825px;
 }
 
+.feedback-container {
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @media only screen and (max-width: 850px) {
   .wrapper {
     display: flex;
@@ -22,7 +34,7 @@
 
   .left-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-right: 0;
     margin-bottom: 40px;
   }
