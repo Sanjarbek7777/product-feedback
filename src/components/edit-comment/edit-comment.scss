@@ -1,0 +1,245 @@
+.edit {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 52px 42px 40px 42px;
+  margin-top: 68px;
+  margin-bottom: 50px;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: -28px;
+    left: 42px;
+    background-image: url("../../assets/img/edit-comment-pen.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+}
+
+.edit__heading {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: -0.333333px;
+  color: #3A4374;
+  margin: 0;
+  margin-bottom: 75px;
+}
+
+// Input styles
+
+.edit-input {
+  max-width: 456px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.edit-input__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.194444px;
+  color: #3A4374;
+  margin: 0;
+}
+
+.edit-input__span {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #647196;
+  margin-bottom: 16px;
+}
+
+.edit-input__input {
+  width: 100%;
+  height: 48px;
+  background-color: #F7F8FD;
+  border-radius: 5px;
+  border: none;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  &::placeholder {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #3A4374;
+  }
+}
+
+// Category styles
+
+.edit-category {
+  max-width: 456px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.edit-category__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.194444px;
+  color: #3A4374;
+  margin: 0;
+}
+
+.edit-category__span {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #647196;
+  margin-bottom: 16px;
+}
+
+.edit-category__select {
+  width: 100%;
+  height: 48px;
+  background-color: #F7F8FD;
+  border-radius: 5px;
+  border: none;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+//  Edit status styles
+
+.edit-status {
+  max-width: 456px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.edit-status__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.194444px;
+  color: #3A4374;
+  margin: 0;
+}
+
+.edit-status__span {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #647196;
+  margin-bottom: 16px;
+}
+
+.edit-status__select {
+  width: 100%;
+  height: 48px;
+  background-color: #F7F8FD;
+  border-radius: 5px;
+  border: none;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+// Edit feedback datail styles
+
+.edit-detail {
+  max-width: 456px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.edit-detail__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.194444px;
+  color: #3A4374;
+  margin: 0;
+}
+
+.edit-detail__span {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #647196;
+  margin-bottom: 16px;
+}
+
+.edit-detail__textarea {
+  width: 100%;
+  background-color: #F7F8FD;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  resize: vertical;
+}
+
+// BUttons
+
+.edit-btn {
+  display: flex;
+}
+
+.edit-btn__delete {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #F2F4FE;
+  background-color: #D73737;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 24px;
+  transition: opacity 0.3s ease;
+  margin-right: auto;
+
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.edit-btn__cansel {
+  background-color: #3A4374;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #F2F4FE;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  margin-right: 16px;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+@media only screen and (max-width: 473px) {
+  .edit-btn {
+    flex-direction: column-reverse;
+
+  }
+
+  .edit-btn__cansel {
+    margin-right: 0;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+
+  .edit-btn__delete {
+    width: 100%;
+  }
+}

@@ -1,14 +1,16 @@
 import "./App.scss";
 import "./assets/scss/main.scss";
-import Button from "./components/buttons/buttons";
-import Edit from "./components/edit-feedback/edit-feedback";
-import Comment from "./components/comment/comment";
+import EditComment from "./components/edit-comment/edit-comment";
+// import Create from "./components/create-feedback/crate";
+// import Button from "./components/buttons/buttons";
+// import Edit from "./components/edit-feedback/edit-feedback";
+// import Comment from "./components/comment/comment";
 // import Mentor from "./components/mentor/mentor";
 // import Hashtags from "./components/hashtag/hashtag";
 // import Roadmap from "./components/roadmap/roadmap";
 // import Hero from "./components/hero/hero";
-import Card from "./components/card/card";
-import AddComment from "./components/add-comment/add-comment";
+// import Card from "./components/card/card";
+// import AddComment from "./components/add-comment/add-comment";
 // import Add from "./components/add-feddback/add-feedback";
 
 function App() {
@@ -31,8 +33,8 @@ function App() {
             <Card />
           </div>
         </div> */}
-
-        <div className="feedback-container">
+{/* ----------------------------------------------------------------------- */}
+        {/* <div className="feedback-container">
           <div className="wrap">
             <Button className="btn__back">Go back</Button>
 
@@ -47,6 +49,14 @@ function App() {
           <div>
             <AddComment />
           </div>
+        </div>
+
+        <div className="create-container">
+          <Create />
+        </div> */}
+
+        <div className="edit-container">
+          <EditComment />
         </div>
         </div>
     </>
